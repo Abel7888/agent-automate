@@ -4,7 +4,6 @@ import StatsBar from "@/components/StatsBar";
 import AgentsSection from "@/components/AgentsSection";
 import ProblemSection from "@/components/ProblemSection";
 import HowItWorks from "@/components/HowItWorks";
-import BlogSection from "@/components/BlogSection";
 import PullQuote from "@/components/PullQuote";
 import WhoItsFor from "@/components/WhoItsFor";
 import PricingSection from "@/components/PricingSection";
@@ -19,7 +18,6 @@ export default function Index() {
       <AgentsSection />
       <ProblemSection />
       <HowItWorks />
-      <BlogSection />
       <PullQuote />
       <WhoItsFor />
       <PricingSection />

@@ -1,8 +1,11 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import ContactModal from "@/components/ContactModal";
 
 export default function HeroSection() {
   const { ref, isVisible } = useScrollAnimation(0.1);
+  const [contactOpen, setContactOpen] = useState(false);
 
   return (
     <section id="home" className="relative min-h-screen flex items-center gradient-mesh pt-16 overflow-hidden">
@@ -33,12 +36,20 @@ export default function HeroSection() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            <Button variant="coral" size="xl">
-              Meet Your AI Team
-            </Button>
-            <Button variant="outline" size="xl">
-              Read the Blog
-            </Button>
+            <a
+              href="https://calendly.com/abelassefa788/partnerships-investor-and-advisors-information"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="coral" size="xl">
+                Meet Your AI Team
+              </Button>
+            </a>
+            <a href="/blog">
+              <Button variant="outline" size="xl">
+                Read the Blog
+              </Button>
+            </a>
           </div>
           <p
             className={`text-sm text-cream/60 transition-all duration-700 delay-500 ${
@@ -49,6 +60,8 @@ export default function HeroSection() {
           </p>
         </div>
       </div>
+
+      <ContactModal open={contactOpen} onClose={() => setContactOpen(false)} />
     </section>
   );
 }
