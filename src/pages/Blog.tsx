@@ -7,7 +7,7 @@ const posts = [
     slug: "missing-zillow-inquiry-costing-you",
     category: "Lead Generation",
     title: "Why Missing a Sunday Night Zillow Inquiry Is Costing You More Than You Think",
-    author: "Sarah Mitchell",
+    author: "Abel Assefa",
     date: "Mar 28, 2026",
     excerpt: "The data is clear: agents who respond in under 2 minutes win 5x more clients.",
     content: `
