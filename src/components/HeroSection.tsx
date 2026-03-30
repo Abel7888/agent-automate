@@ -42,7 +42,7 @@ export default function HeroSection() {
               rel="noopener noreferrer"
             >
               <Button variant="coral" size="xl">
-                Meet Your AI Team
+                Schedule a Call
               </Button>
             </a>
             <a href="/blog">

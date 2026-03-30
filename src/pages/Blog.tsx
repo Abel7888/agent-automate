@@ -7,7 +7,7 @@ const posts = [
     slug: "missing-zillow-inquiry-costing-you",
     category: "Lead Generation",
     title: "Why Missing a Sunday Night Zillow Inquiry Is Costing You More Than You Think",
-    author: "Sarah Mitchell",
+    author: "Abel Assefa",
     date: "Mar 28, 2026",
     excerpt: "The data is clear: agents who respond in under 2 minutes win 5x more clients.",
     content: `
@@ -61,7 +61,7 @@ The agents who thrive in the next decade won't be the ones who work the hardest.
     slug: "ai-deal-screening-10-hours-to-45-minutes",
     category: "Deal Analysis",
     title: "From 10 Hours to 45 Minutes: How AI Deal Screening Actually Works",
-    author: "Maria Torres",
+    author: "Abel Assefa",
     date: "Mar 15, 2026",
     excerpt: "A deep dive into the deal screener workflow that's changing investor strategy.",
     content: `
