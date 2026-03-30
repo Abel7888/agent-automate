@@ -61,7 +61,7 @@ The agents who thrive in the next decade won't be the ones who work the hardest.
     slug: "ai-deal-screening-10-hours-to-45-minutes",
     category: "Deal Analysis",
     title: "From 10 Hours to 45 Minutes: How AI Deal Screening Actually Works",
-    author: "Maria Torres",
+    author: "Abel Assefa",
     date: "Mar 15, 2026",
     excerpt: "A deep dive into the deal screener workflow that's changing investor strategy.",
     content: `
