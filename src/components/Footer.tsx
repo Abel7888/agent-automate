@@ -19,7 +19,7 @@ export default function Footer() {
           {/* Logo */}
           <div>
             <span className="text-2xl font-extrabold text-cream tracking-tight">
-              RealEstate<span className="text-gold">AI</span>
+              AI Agents <span className="text-gold">Real Estate</span>
             </span>
             <p className="text-cream/60 text-sm mt-3">Close More. Work Less. Let AI Handle the Rest.</p>
           </div>
@@ -53,7 +53,7 @@ export default function Footer() {
 
         <div className="border-t border-gold/10 pt-8 text-center">
           <p className="text-cream/40 text-sm">Built for agents who close deals, not spreadsheets.</p>
-          <p className="text-cream/30 text-xs mt-2">© 2026 RealEstateAI. All rights reserved.</p>
+          <p className="text-cream/30 text-xs mt-2">© 2026 AI Agents Real Estate. All rights reserved.</p>
         </div>
       </div>
     </footer>
