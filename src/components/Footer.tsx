@@ -19,7 +19,7 @@ export default function Footer() {
           {/* Logo */}
           <div>
             <span className="text-2xl font-extrabold text-cream tracking-tight">
-              RealEstate<span className="text-gold">AI</span>
+              AI Agents <span className="text-gold">Real Estate</span>
             </span>
             <p className="text-cream/60 text-sm mt-3">Close More. Work Less. Let AI Handle the Rest.</p>
           </div>
