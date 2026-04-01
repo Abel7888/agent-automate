@@ -18,7 +18,7 @@ export default function PullQuote() {
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >
-          — RealEstateAI Team
+          — AI Agents Real Estate Team
         </p>
       </div>
     </section>

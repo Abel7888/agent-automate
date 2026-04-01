@@ -33,7 +33,7 @@ export default function Navbar() {
         <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
           <a href="/#home" className="flex items-center gap-2">
             <span className="text-2xl font-extrabold text-foreground tracking-tight">
-              RealEstate<span className="text-gold">AI</span>
+              AI Agents <span className="text-gold">Real Estate</span>
             </span>
           </a>
 
